@@ -1,7 +1,7 @@
 def main():
     #Your main program code here
     print("The program has started")
-    book_path = "books/Frankenstein"
+    book_path = "books/Frankenstein.txt"
     text = get_book_text(book_path)
     num_words = get_num_words(text)
     num_letters = count_letters(text)
